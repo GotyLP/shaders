@@ -273,12 +273,24 @@ PrefabInstance:
       value: Prefab_Sword_Cyber_Honesty
       objectReference: {fileID: 0}
     - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2421666
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2033
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2033
+      objectReference: {fileID: 0}
+    - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.058694124
+      value: -0.11365
       objectReference: {fileID: 0}
     - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.7702968
+      value: -1.8202
       objectReference: {fileID: 0}
     - target: {fileID: 4855637746030442, guid: 0016c340f5d82ff48b1756e37efa425b, type: 3}
       propertyPath: m_LocalPosition.z
