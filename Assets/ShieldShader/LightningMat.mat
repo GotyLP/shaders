@@ -51,19 +51,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaCliping: 0.342
+    - _AlphaCliping: 1
+    - _Fresnel_Power: 1
     - _NoiseScale: 100
-    - _Power: 50
+    - _Power: 3.47
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Random: 0.008
-    - _Thicnkess: 11.29
-    - _rate: 0
+    - _Thicnkess: 1.63
+    - _rate: 1
     - _time: -0.02
     m_Colors:
     - _Color: {r: 0, g: 0.022768196, b: 1.6918247, a: 0}
     - _Color1: {r: 0.6645689, g: 23.968626, b: 12.431365, a: 0}
     - _Color2: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+    - _Shield_Color: {r: 0.09009397, g: 1.8070441, b: 3.4415908, a: 0.050980393}
     - _Speed1: {r: 0, g: 0.05, b: 0, a: 0}
     - _Speed2: {r: 0, g: -0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
