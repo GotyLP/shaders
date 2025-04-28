@@ -67,7 +67,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Flow: 0.05
+    - _Flow: 0.02
     - _FlowTiling: 1
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -75,6 +75,6 @@ Material:
     - _MainTextColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 0}
     - _MainTiling: {r: 45, g: 45, b: 0, a: 0}
     - _RippleSpeed: {r: 0, g: -0.02, b: 0, a: 0}
-    - _RippleTiling: {r: 100, g: 100, b: 0, a: 0}
+    - _RippleTiling: {r: 80, g: 80, b: 0, a: 0}
     - _SmoothTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
