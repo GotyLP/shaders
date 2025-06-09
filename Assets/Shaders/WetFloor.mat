@@ -38,11 +38,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainText:
-        m_Texture: {fileID: 2800000, guid: dc3de7e8d25f1c14982d7df1c5638e5f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 312b8fafb6cbd7140954e9bd957ced4b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMainText:
-        m_Texture: {fileID: 2800000, guid: ed64a2c89b80243499c5cdf47aadcb13, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9bf1914a0eb94de49b0d7a6d3c5bdb37, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Puddles:
@@ -73,7 +73,7 @@ Material:
     - _QueueOffset: 0
     m_Colors:
     - _MainTextColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 0}
-    - _MainTiling: {r: 45, g: 45, b: 0, a: 0}
+    - _MainTiling: {r: 20, g: 20, b: 0, a: 0}
     - _RippleSpeed: {r: 0, g: -0.02, b: 0, a: 0}
     - _RippleTiling: {r: 80, g: 80, b: 0, a: 0}
     - _SmoothTiling: {r: 0.1, g: 0.1, b: 0, a: 0}
