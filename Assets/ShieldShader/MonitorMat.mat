@@ -46,8 +46,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Frecuency: 42.4
+    - _Frecuency: 70.33
     - _GlowPower: 0.1
+    - _LineStrenght: 0.4
     - _Metallic: 1
     - _QueueControl: 0
     - _QueueOffset: 0
