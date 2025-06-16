@@ -8,17 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: neon_sign_tile
-    second: {fileID: 2100000, guid: 536cf8e321a025940bd274054886104b, type: 2}
+    second: {fileID: 2100000, guid: 00c0bab27fdaf6c4698db0e3fefefa71, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: neon_sign_unique
-    second: {fileID: 2100000, guid: 279cfb21b5d929f4c9ecb8755f5572f5, type: 2}
+    second: {fileID: 2100000, guid: ad95a31740c24ad429165238dac7447e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

@@ -10,6 +10,7 @@ public class DissolveController : MonoBehaviour
 
     private MeshRenderer _meshRenderer;
     private Material _material;
+    private MeshCollider _meshCollider;
 
     private static readonly int Dissolve = Shader.PropertyToID("_DissolveAmount");
 
@@ -21,6 +22,7 @@ public class DissolveController : MonoBehaviour
         _meshRenderer = GetComponent<MeshRenderer>();
         _material = _meshRenderer.material;
         _material.SetFloat(Dissolve, _dissolve);
+        _meshCollider = GetComponent<MeshCollider>();
     }
 
     void Update()
@@ -45,6 +47,11 @@ public class DissolveController : MonoBehaviour
 
             if (_dissolve >= 1f)
                 _isDissolving = false;
+
+            if (_meshCollider != null)
+            {
+                _meshCollider.enabled = false;
+            }
         }
 
         if (_isRestoring)
@@ -55,6 +62,11 @@ public class DissolveController : MonoBehaviour
 
             if (_dissolve <= 0f)
                 _isRestoring = false;
+
+            if (_meshCollider != null)
+            {
+                _meshCollider.enabled = true;
+            }
         }
     }
 }
