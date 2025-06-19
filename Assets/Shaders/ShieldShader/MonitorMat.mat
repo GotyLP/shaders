@@ -46,17 +46,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Frecuency: 70.33
+    - _Frecuency: 72.16
     - _GlowPower: 0.1
-    - _LineStrenght: 0.4
-    - _Metallic: 1
+    - _LineStrenght: 0.7
+    - _Metallic: 2
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 1
     m_Colors:
     - _Base_Color: {r: 1, g: 1, b: 1, a: 0}
     - _GlowColor: {r: 5.9921575, g: 5.9921575, b: 5.9921575, a: 0}
-    - _Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _Speed: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Speed1: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _Tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
